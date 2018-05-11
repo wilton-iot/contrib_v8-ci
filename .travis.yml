@@ -70,7 +70,7 @@ deploy:
   provider: releases
   skip_cleanup: true
   api_key:
-    secure: TODO
+    secure: ZnPKSRpWYWPWnNsvdEjRWWJCgt24JFybB0Wj9GT5DPQCSFJu6AdICE0Y0MNTT6XzXaKbBEiA0idGD7u0JclOajUrzjJxgLH7CyiZ+j697Bp2MsybSTM+PfYOt5cbc179hxokSNFr1QOismR5RerChjY3Ond6jWuUgpsWRIdrng4+f+LjH4Q3ynLtCdOA2zSRLi3C+mi6zdCrg/StIvtvkXTtT12A28sKmw1MMdzZ5VlOizaGFyP5KgJWTjnbuwlAsVLeS6+d7dOkA4GCNTKiXgUuLTPZ00Ce8Xep1G32Ay4oXlTNroEt1VCNeiFH94asJI3iaz25ujBarb/otpblDwTWwqkY9k9/zKo09tSP8471edZ/xP/H5xs72cFwKr6Tk7iq+psiDh7QC1bo1epaSrpOco11cGZG/eLHpBTPdjbDaq4YG4NmXjWBmUzzJJhVpZnmztTp4KQ0+8DAkmq6dqdS1EfzYIat/F2ystRb/W8z7zXe7f4hHeRU6AkPnLtHuOLhWKXdw8anvnBnnIiu4O++2NM3lnbEXgFvpdT4qNZEjOj+1Y+tWhtjn/DSFgBm2pk8PYVfx+DM0UQeuwlNjhAdJJ8yay9ODepw2JilJFN5NMxcGiL2GWaRTFcacIQIea28FvlBBrWrOYLKp8mTbK6jCav+odJT5QDtPA2zB0c=
   file:
     - ${V8_IMAGE}.zip
     - ${V8_IMAGE}.zip.sha256
