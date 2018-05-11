@@ -38,7 +38,7 @@ before_install:
             -e LD_LIBRARY_PATH=/opt/rh/httpd24/root/usr/lib64:/opt/rh/devtoolset-6/root/usr/lib64:/opt/rh/devtoolset-6/root/usr/lib:/opt/rh/python27/root/usr/lib64
             -e PYTHONPATH=/opt/rh/devtoolset-6/root/usr/lib64/python2.6/site-packages:/opt/rh/devtoolset-6/root/usr/lib/python2.6/site-packages
             -e PKG_CONFIG_PATH=/opt/rh/python27/root/usr/lib64/pkgconfig
--e PATH=/opt/rh/rh-git29/root/usr/bin:/opt/rh/python27/root/usr/bin:/opt/rh/devtoolset-6/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/depot_tools:/opt/tools_linux_patchelf
+            -e PATH=/opt/rh/rh-git29/root/usr/bin:/opt/rh/python27/root/usr/bin:/opt/rh/devtoolset-6/root/usr/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/depot_tools:/opt/tools_linux_patchelf
             centos:6 bash
 
 install:
