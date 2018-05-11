@@ -56,14 +56,12 @@ install:
             glib2-devel
 
 before_script:
-  - $D git clone https://github.com/ojdkbuild/upstream_jdk-8u.git /jdk
-  - $D bash -c "cd /jdk ; git checkout ${OJDK_TAG}"
-
-script:
   - $D git clone --depth=1 https://chromium.googlesource.com/chromium/tools/depot_tools.git
   - $D git clone --depth=1 https://github.com/wilton-iot/tools_linux_gn.git
   - $D git clone --depth=1 https://github.com/wilton-iot/tools_linux_patchelf.git
-  - $D mv /opt/tools_linux_gn/gn /host/${V8_IMAGE}
+
+script:
+  - $D mv /opt/tools_linux_gn/gn /host/${V8_IMAGE}.zip
   - sha256sum ${V8_IMAGE}.zip > ${V8_IMAGE}.zip.sha256
 
 deploy:
